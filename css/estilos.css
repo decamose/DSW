@@ -1,0 +1,121 @@
+header{
+    width: 1070px;
+    height: 250px;
+    position: relative;
+}
+header h1{
+   
+    position: absolute;
+    top: 130px;
+    left: 350px;
+    color: orange;
+}
+
+nav{
+    width: 1060px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    background: #EFF8FB;
+    text-align: center;
+    
+}
+
+header nav ul li {
+    display: inline-block;
+    width: 30%;
+    
+}
+
+header nav ul li a{
+    text-decoration: black;
+     color: black;
+     display: block;
+     font-size: 1.2sem;
+}
+
+header nav ul li:last-child a{
+    border-right: none;
+}
+
+header nav ul li a:hover{
+    color: orange;
+}
+section{
+    width: 1065px;
+height: 450px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+footer{
+    width: 1065px;
+    height: 60px;
+   
+    position: relative;
+}
+footer h4{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    line-height: 20px;
+}
+
+#principal{
+    width: 650px;
+    height: 360px;
+    float: left;
+}
+
+aside{
+    width: 330px;
+    height: 360px;
+    float: left;
+}
+
+/*fin estilos index*/
+
+
+/*estilos pagina teoria*/
+
+.teoria1{
+    width: 70px;
+    height: 70px;
+    border: solid;
+    display: inline-block;
+    
+}
+section ul{
+    margin-top: 20px;
+}
+
+section ul li{
+    display: block;
+    width: 100%;
+}
+
+section ul li a{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    }
+
+    .contenido{
+        width: 890px;
+        height: 70px;
+        display: inline-block;
+        color: black;
+    }
+
+   #iteoria1{
+   background-size: cover;
+   background-position: center;
+   }
+
+   #iteoria2{
+    background-size: cover;
+    background-position: center;
+}
+
+#iteoria3{
+    background-size: cover;
+    background-position: center; 
+}
